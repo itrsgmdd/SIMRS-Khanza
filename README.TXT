@@ -11,3 +11,5 @@
   Hasil build/Software jadi bisa di download di https://drive.google.com/drive/folders/0ByL--Jg6bdF7RG1NSlVTT2ZPODg 
 
   Bagi yang ingin berdonasi untuk pengembangan SIMRS Khanza bisa lewat BSI 1015369872 atas nama Windiarto
+
+2024
