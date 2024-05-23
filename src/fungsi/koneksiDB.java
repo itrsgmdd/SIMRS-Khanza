@@ -31,12 +31,8 @@ public class koneksiDB {
                 dataSource.setUser(EnkripsiAES.decrypt(prop.getProperty("USER")));
                 dataSource.setPassword(EnkripsiAES.decrypt(prop.getProperty("PAS")));
                 connection=dataSource.getConnection();       
-                System.out.println("  Koneksi Berhasil. Sorry bro loading, silahkan baca dulu.... \n\n"+
-                        "	Software ini adalah Software Menejemen Rumah Sakit/Klinik/\n" +
-                        "  Puskesmas yang  gratis dan boleh digunakan siapa saja tanpa dikenai \n" +
-                        "  biaya apapun. Dilarang keras memperjualbelikan/mengambil \n" +
-                        "  keuntungan dari Software ini dalam bentuk apapun tanpa seijin pembuat \n" +
-                        "  software (Khanza.Soft Media).\n"+
+                System.out.println("        \n\n"+
+                        "  Status Koneksi : Sukses \n\n"+
                         "                                                                           \n"+
                         "  #    ____  ___  __  __  ____   ____    _  __ _                              \n" +
                         "  #   / ___||_ _||  \\/  ||  _ \\ / ___|  | |/ /| |__    __ _  _ __   ____ __ _ \n" +
@@ -45,9 +41,11 @@ public class koneksiDB {
                         "  #   |____/|___||_|  |_||_| \\_\\|____/  |_|\\_\\|_| |_| \\__,_||_| |_|/___|\\__,_|\n" +
                         "  #                                                                           \n"+
                         "                                                                           \n"+
-                        "  Licensi yang dianut di software ini https://en.wikipedia.org/wiki/Aladdin_Free_Public_License \n"+
-                        "  Informasi dan panduan bisa dicek di halaman https://github.com/mas-elkhanza/SIMRS-Khanza/wiki \n"+
-                        "  Bagi yang ingin berdonasi untuk pengembangan aplikasi ini bisa ke BSI 1015369872 atas nama Windiarto\n"+
+                        "       Hak Cipta oleh Khanza.Soft Media ©2024 \n"+
+                        "       Yayasan SIMRS Khanza Indonesia (YASKI) \n"+
+                        "                                                                           \n"+
+                        "       Versi Aplikasi : 17.05.2024 \n"+
+                        "       RS. GRIYA MEDIKA DOMPET DHUAFA \n\n"+
                         "                                                                           ");
             }catch(Exception e){
                 System.out.println("Notif : "+e);

@@ -212,6 +212,7 @@ public final class DlgCariObat3 extends javax.swing.JDialog {
         } catch (Exception e) {
             hppfarmasi="dasar";
         }
+        
     }    
     
 
@@ -298,7 +299,7 @@ public final class DlgCariObat3 extends javax.swing.JDialog {
             }
         });
 
-        internalFrame1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(240, 245, 235)), "::[ Data Obat, Alkes & BHP Medis ]::", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(50, 50, 50))); // NOI18N
+        internalFrame1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(240, 245, 235)), "::[ Data Obat, Alkes & BHP Medis 3]::", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(50, 50, 50))); // NOI18N
         internalFrame1.setName("internalFrame1"); // NOI18N
         internalFrame1.setLayout(new java.awt.BorderLayout(1, 1));
 
@@ -409,7 +410,7 @@ public final class DlgCariObat3 extends javax.swing.JDialog {
         FormInput.add(jLabel5);
 
         Tanggal.setForeground(new java.awt.Color(50, 70, 50));
-        Tanggal.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "14-02-2022" }));
+        Tanggal.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "17-05-2024" }));
         Tanggal.setDisplayFormat("dd-MM-yyyy");
         Tanggal.setName("Tanggal"); // NOI18N
         Tanggal.setOpaque(false);
@@ -451,6 +452,7 @@ public final class DlgCariObat3 extends javax.swing.JDialog {
         internalFrame1.add(FormInput, java.awt.BorderLayout.PAGE_START);
 
         getContentPane().add(internalFrame1, java.awt.BorderLayout.CENTER);
+        internalFrame1.getAccessibleContext().setAccessibleDescription("");
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -1099,7 +1101,7 @@ private void TanggalKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_T
                         siang=0;
                         sore=0;
                         malam=0;
-                        System.out.println("Notofikasi : "+e);
+                        System.out.println("Notifikasi : "+e);
                     } finally{
                         if(rspemberian != null){
                             rspemberian.close();
@@ -1124,7 +1126,7 @@ private void TanggalKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_T
                         }
                     } catch (Exception e) {
                         keluar=0;
-                        System.out.println("Notofikasi : "+e);
+                        System.out.println("Notifikasi : "+e);
                     } finally{
                         if(rskeluar != null){
                             rskeluar.close();
