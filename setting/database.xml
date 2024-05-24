@@ -49,14 +49,14 @@
     <entry key="JADIKANBOOKINGSURATKONTROLAPIBPJS">no</entry>
 	
     <entry key="URLAPIAPLICARE">https://new-api.bpjs-kesehatan.go.id/aplicaresws</entry>
-    <entry key="SECRETKEYAPIAPLICARE">l4nh5eVYrLAER/I2A4b3Tw==</entry>
-    <entry key="CONSIDAPIAPLICARE">l4nh5eVYrLAER/I2A4b3Tw==</entry>
-    <entry key="USERKEYAPIAPLICARE">l4nh5eVYrLAER/I2A4b3Tw==</entry>
+    <entry key="SECRETKEYAPIAPLICARE">LxWwlmnJmUfGh9OKeMvCaA==</entry>
+    <entry key="CONSIDAPIAPLICARE">Fy9vm+pzA2Cggjy9X+Tepw==</entry>
+    <entry key="USERKEYAPIAPLICARE">4X+01fGfBSfMevWgghmn6w8P/HNACN498aKJyT5tePliKkJSaW/QG5XqqRbF1+4K</entry>
 	
-    <entry key="URLAPIMOBILEJKN">https://apijkn-dev.bpjs-kesehatan.go.id/antreanrs_dev</entry>
-    <entry key="SECRETKEYAPIMOBILEJKN">l4nh5eVYrLAER/I2A4b3Tw==</entry>
-    <entry key="CONSIDAPIMOBILEJKN">l4nh5eVYrLAER/I2A4b3Tw==</entry>
-    <entry key="USERKEYAPIMOBILEJKN">l4nh5eVYrLAER/I2A4b3Tw==</entry>
+    <entry key="URLAPIMOBILEJKN">https://apijkn.bpjs-kesehatan.go.id/antreanrs</entry>
+    <entry key="SECRETKEYAPIMOBILEJKN">LxWwlmnJmUfGh9OKeMvCaA==</entry>
+    <entry key="CONSIDAPIMOBILEJKN">Fy9vm+pzA2Cggjy9X+Tepw==</entry>
+    <entry key="USERKEYAPIMOBILEJKN">T1S4blT91iS8O4wAe0Y8lF8NFtv5tY2aiDz8N3P+AjREAxtuCwLlufzX2+rTX4Ce</entry>
 	
     <entry key="ADDANTRIANAPIMOBILEJKN">yes</entry>
 	
